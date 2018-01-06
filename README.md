@@ -7,14 +7,14 @@ In case you want to try this project you will need a MySQL Database.
 
 ```bash
 CREATE TABLE milongas (
-    `list_weekday` VARCHAR(2) CHARACTER SET utf8,
-    `list_roto` VARCHAR(57) CHARACTER SET utf8,
-    `list_city` VARCHAR(15) CHARACTER SET utf8,
-    `list_location` VARCHAR(20) CHARACTER SET utf8,
-    `list_time` VARCHAR(13) CHARACTER SET utf8,
-    `list_annotation` VARCHAR(81) CHARACTER SET utf8,
-    `list_contact` VARCHAR(20) CHARACTER SET utf8,
-    `list_cost` INT
+    `weekday` VARCHAR(2) CHARACTER SET utf8,
+    `roto` VARCHAR(57) CHARACTER SET utf8,
+    `city` VARCHAR(15) CHARACTER SET utf8,
+    `location` VARCHAR(20) CHARACTER SET utf8,
+    `time` VARCHAR(13) CHARACTER SET utf8,
+    `annotation` VARCHAR(81) CHARACTER SET utf8,
+    `contact` VARCHAR(20) CHARACTER SET utf8,
+    `cost` INT
 );
 ```
 ```bash
