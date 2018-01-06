@@ -1,7 +1,7 @@
 # Tango
 
 I wanted to test the Kitura-Webframework and the Vapor MySQL Driver and the StencilTemplateEngine.
-This is my very first Web Project, i think even SQL-Injections would work and I lost interest in this project after a while. I just uploaded it for historical reasons. after a while. I just uploaded it for historical reasons.
+This is my very first Web Project, i think even SQL-Injections would work and I lost interest in this project after a while. I just uploaded it for historical reasons.
 
 In case you want to try this project you will need a MySQL Database.
 
