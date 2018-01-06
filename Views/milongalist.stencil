@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auflistung aller Milongas</title>
+  </head>
+  <body>
+<table border="1">
+<tr><th>Wochentag</th><th>Wiederholung</th><th>Stadt</th><th>Lokalität</th><th>Zeit</th><th>Anmerkung</th><th>Kosten</th></tr>
+	{% for milonga in milongas %} 
+<tr>
+<td>{{milonga.weekday}}</td><td> {{milonga.roto}}</td><td>{{milonga.city}}</td><td>{{milonga.location}}</td><td>{{milonga.time}}</td><td>{{milonga.annotation}}</td><td>{{milonga.cost}}</td>
+</tr>
+	{% endfor %}
+</table>
+  </body>
+</html>
